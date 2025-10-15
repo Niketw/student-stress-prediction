@@ -1,0 +1,176 @@
+# ============================================
+# 🌐 FRONTEND (Vue 3 + Vite)
+# ============================================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+frontend/.nuxt/
+frontend/.output/
+
+# Local environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Editor config files
+frontend/.vscode/
+frontend/.idea/
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Lockfiles (optional – ignore if using a specific package manager consistently)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ============================================
+# ⚙️ BACKEND (FastAPI + Python)
+# ============================================
+backend/__pycache__/
+backend/*.py[cod]
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.coverage
+backend/htmlcov/
+backend/dist/
+backend/build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+.Python
+
+# Environment and secret configs
+backend/.env
+backend/.env.*
+backend/secrets.json
+
+# SQLite / local DBs
+backend/*.db
+backend/*.sqlite3
+
+# Logs
+backend/*.log
+
+# Local dev files
+backend/.DS_Store
+backend/.idea/
+backend/.vscode/
+
+# ============================================
+# 🤖 MACHINE LEARNING / DATA
+# ============================================
+# Model weights and checkpoints
+checkpoints/
+saved_models/
+*.pth
+*.pt
+*.ckpt
+*.joblib
+*.pkl
+*.h5
+*.onnx
+
+# Training logs and outputs
+runs/
+wandb/
+tensorboard/
+lightning_logs/
+output/
+outputs/
+
+# ============================================
+# 🐳 DOCKER
+# ============================================
+Dockerfile.*~
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+.docker/
+tmp/
+
+# Docker volumes / mounts
+volumes/
+docker-data/
+
+# ============================================
+# 🧪 TESTING & COVERAGE
+# ============================================
+coverage.xml
+htmlcov/
+.cache/
+.tox/
+.nox/
+.pytest_cache/
+junitxml/
+test-results/
+
+# ============================================
+# 🧰 SYSTEM & EDITOR FILES
+# ============================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# ============================================
+# 🚀 BUILD & DEPLOYMENT
+# ============================================
+dist/
+build/
+*.log
+*.bak
+*.tmp
+scripts/local/
+configs/local/
+
+# ============================================
+# 🧱 VITE / FRONTEND BUILD OUTPUT
+# ============================================
+node_modules/
+dist/
+.vite/
+.env
+.env.local
+.env.*.local
+
+# ============================================
+# 🔐 SECURITY
+# ============================================
+*.pem
+*.key
+*.crt
+*.der
+*.csr
+*.pub
+*.auth
+*.token
+credentials.json
+client_secret.json
+service_account.json
+firebase-adminsdk.json
+
+# ============================================
+# 🧾 MISC (CACHE, TMP, BACKUPS)
+# ============================================
+*.bak
+*.tmp
+*.swp
+*.swo
+.cache/
+tmp/
+logs/
+log/
+__pycache__/

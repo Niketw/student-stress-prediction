@@ -1,0 +1,143 @@
+# ============================================
+# 🧰 GIT & VCS
+# ============================================
+.git
+.gitignore
+.gitattributes
+
+# ============================================
+# 🧱 FRONTEND (Vue + Vite)
+# ============================================
+frontend/node_modules
+frontend/dist
+frontend/.vite
+frontend/.cache
+frontend/.nuxt
+frontend/.output
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ============================================
+# ⚙️ BACKEND (FastAPI + Python)
+# ============================================
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info
+*.spec
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+.Python
+
+# Cache and build artifacts
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.coverage
+backend/htmlcov/
+backend/dist/
+backend/build/
+backend/.env
+backend/.env.*
+
+# ============================================
+# 🤖 MACHINE LEARNING / DATA
+# ============================================
+# Datasets
+dataset/
+datasets/
+
+# Model weights and training artifacts
+models/
+checkpoints/
+saved_models/
+runs/
+wandb/
+tensorboard/
+lightning_logs/
+outputs/
+output/
+
+# Large ML files
+*.pth
+*.pt
+*.ckpt
+*.joblib
+*.pkl
+*.h5
+*.onnx
+*.npz
+*.npy
+*.csv
+*.tsv
+*.zip
+*.tar
+*.tar.gz
+*.jsonl
+
+# ============================================
+# 🧪 TESTING
+# ============================================
+.tox/
+.nox/
+coverage.xml
+pytest_cache/
+test-results/
+
+# ============================================
+# 🧠 JUPYTER NOTEBOOKS
+# ============================================
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ============================================
+# 🧾 CONFIG / ENV FILES
+# ============================================
+*.env
+.env.local
+.env.*.local
+config.local.json
+secrets.json
+credentials.json
+client_secret.json
+service_account.json
+firebase-adminsdk.json
+
+# ============================================
+# 🐳 DOCKER META
+# ============================================
+Dockerfile.*
+docker-compose.*
+*.pid
+.dockerignore
+.docker/
+docker-data/
+volumes/
+tmp/
+logs/
+log/
+
+# ============================================
+# 🧠 DEVELOPMENT / EDITORS
+# ============================================
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# ============================================
+# 🧩 SYSTEM FILES
+# ============================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
